@@ -1,0 +1,31 @@
+{
+  "name": "babel-test-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "babel-node ./src/bin/www.js",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && babel ./src --out-dir dist --copy-files",
+    "prod": "node ./dist/bin/www.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "core-js": "^3.9.1",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "engines": {
+    "node": "14.X"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.13",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "babel-plugin-module-resolver": "^4.1.0"
+  }
+}
