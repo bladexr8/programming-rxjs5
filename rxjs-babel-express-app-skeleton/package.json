@@ -19,7 +19,7 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "regenerator-runtime": "^0.13.7",
-    "rxjs": "^6.6.6"
+    "rxjs": "^5.4.2"
   },
   "engines": {
     "node": "14.X"
