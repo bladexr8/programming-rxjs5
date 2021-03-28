@@ -1,0 +1,10 @@
+// This configuration makes sure that the transpiled code works on all browsers that are:
+// - Still supported, and thus not dead or abandoned.
+// - Have a market share of more than 0,25%.
+{
+    "presets": [
+      ["@babel/preset-env", {
+        "targets": "> 0.25%, not dead"
+      }]
+    ]
+}
